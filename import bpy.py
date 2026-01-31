@@ -3,8 +3,8 @@ import os
 import shutil
 
 # === CONFIGURE PATHS HERE ===
-input_folder = r"C:\Users\Angélique\Desktop\Campus"
-output_folder = r"C:\Users\Angélique\Desktop\test"
+input_folder = r"C:\User_input"
+output_folder = r"C:\Users_output"
 
 if not os.path.exists(output_folder):
     os.makedirs(output_folder)
